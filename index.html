@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Église Cité de la Renaissance</title>
+<meta name="description" content="Église Cité de la Renaissance (CDR), association sans but lucratif établie à Bruxelles. Informations officielles, contact et application mobile.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<style>
+  :root { --fond:#f6f4ef; --encre:#1c1a16; --doux:#6f6a62; --trait:#e3ded3; --accent:#7a1f2b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fond:#16140f; --encre:#f1ede4; --doux:#a49e92; --trait:#2f2b24; --accent:#d98a94; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fond); color:var(--encre);
+         font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  nav { max-width:44rem; margin:0 auto; padding:1.2rem 1.25rem 0; display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; font-size:.9rem; }
+  nav a { color:var(--doux); text-decoration:none; }
+  nav a[aria-current="page"] { color:var(--encre); font-weight:650; }
+  nav a:hover { color:var(--accent); }
+  main { max-width:44rem; margin:0 auto; padding:1.5rem 1.25rem 3rem; }
+  h1 { font-size:1.9rem; line-height:1.2; margin:0 0 .5rem; }
+  h2 { font-size:1.25rem; margin:2.4rem 0 .6rem; padding-top:1.4rem; border-top:1px solid var(--trait); }
+  strong { font-weight:650; }
+  a { color:var(--accent); }
+  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.95rem; }
+  th, td { text-align:left; padding:.55rem .6rem; border-bottom:1px solid var(--trait); }
+  th { color:var(--doux); font-weight:600; width:11rem; }
+  footer { max-width:44rem; margin:0 auto; padding:1.5rem 1.25rem 3rem; border-top:1px solid var(--trait);
+           color:var(--doux); font-size:.85rem; }
+
+  /* Le bloc-logo, repris de l'écran de connexion de l'application. Il est
+     écrit en texte et non posé en image : net à toutes les tailles, et rien
+     à héberger. */
+  .logo { background:#000; color:#f6f4ef; padding:3.4rem 1.25rem 3rem; }
+  .lockup { max-width:44rem; margin:0 auto; }
+  .lockup p { margin:0; }
+  .eglise { font-family:"Playfair Display",Georgia,serif; font-style:italic;
+            font-size:clamp(20px,4.6vw,34px); line-height:1; }
+  .cite, .renaissance { font-family:Inter,system-ui,sans-serif; font-weight:800;
+                        letter-spacing:-.02em; line-height:.92; }
+  .cite { font-size:clamp(40px,12vw,96px); text-align:right; margin-top:.1em !important; }
+  .renaissance { font-size:clamp(34px,10.5vw,84px); }
+</style>
+</head>
+<body>
+
+<header class="logo">
+  <div class="lockup">
+    <p class="eglise">église</p>
+    <p class="cite">CITÉ</p>
+    <p class="renaissance">RENAISSANCE</p>
+  </div>
+</header>
+
+<nav aria-label="Pages">
+  <a href="./" aria-current="page">Accueil</a>
+  <a href="confidentialite/">Confidentialité</a>
+  <a href="confidentialite/suppression-de-compte/">Supprimer mon compte</a>
+  <a href="confidentialite/assistance/">Assistance</a>
+</nav>
+
+<main>
+  <h1>Église Cité de la Renaissance</h1>
+  <p>
+    Nous sommes une communauté chrétienne établie à Bruxelles, constituée en
+    association sans but lucratif de droit belge. Nos membres se rassemblent
+    autour des cultes du dimanche, de la prière, et du travail de nos
+    départements — accueil, louange, médias, production, jeunesse et autres.
+  </p>
+
+  <h2>Informations officielles</h2>
+  <table>
+    <tr><th>Dénomination légale</th><td><strong>La Cité de la Renaissance</strong> (en abrégé : CDR)</td></tr>
+    <tr><th>Forme juridique</th><td>Association sans but lucratif (ASBL)</td></tr>
+    <tr><th>Siège</th><td>Rue Harenheyde 66, 1130 Bruxelles, Belgique</td></tr>
+    <tr><th>Numéro d’entreprise</th><td>1004.198.240</td></tr>
+    <tr><th>Contact</th><td><a href="mailto:lacitedelarenaissance@gmail.com">lacitedelarenaissance@gmail.com</a></td></tr>
+  </table>
+
+  <h2>Notre application</h2>
+  <p>
+    Nous développons une application mobile réservée à la vie interne de
+    l’église : calendrier des cultes et des événements, annonces du
+    secrétariat, espaces de travail des départements, verset du jour, demandes
+    de prière et appels à bénévoles.
+  </p>
+  <p>
+    Elle est destinée à nos membres. Elle ne contient ni publicité ni achat
+    intégré, et n’est pas un service commercial. La
+    <a href="confidentialite/">politique de confidentialité</a> détaille les
+    données recueillies, et
+    <a href="confidentialite/assistance/">l’assistance</a> indique comment
+    nous joindre.
+  </p>
+</main>
+
+<footer>
+  La Cité de la Renaissance (CDR) — association sans but lucratif · Rue Harenheyde 66, 1130 Bruxelles ·
+  Numéro d'entreprise 1004.198.240 · <a href="mailto:lacitedelarenaissance@gmail.com">lacitedelarenaissance@gmail.com</a>
+</footer>
+
+</body>
+</html>
